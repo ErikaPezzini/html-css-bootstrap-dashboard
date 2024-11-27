@@ -5,7 +5,12 @@
     box-sizing: border-box;
 }
 
-/* titolo */
+/* Navbar */
+.collapse {
+    padding-left: 10px;
+}
+
+/* Title and button */
 h1 {
     font-size: x-large;
     display: inline-block;
@@ -19,6 +24,7 @@ h1 {
     padding-bottom: 25px;
 }
 
-.collapse {
-    padding-left: 10px;
+main {
+    max-width: 1350px;
+    margin: 0 auto;
 }
