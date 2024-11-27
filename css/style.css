@@ -95,3 +95,8 @@ main {
     background-color: #DC3545;
     width: 100px;
 }
+
+.last-line {
+    border-bottom: 1px solid #DEE2E6;
+    padding-bottom: 10px;
+}
