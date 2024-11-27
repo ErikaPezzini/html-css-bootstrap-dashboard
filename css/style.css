@@ -1,0 +1,24 @@
+/* Css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* titolo */
+h1 {
+    font-size: x-large;
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.collapse {
+    padding-left: 10px;
+}
