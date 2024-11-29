@@ -1,0 +1,25 @@
+/* Css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.collapse {
+    padding-left: 10px;
+}
+
+/* Title*/
+h1 {
+    font-size: x-large;
+    display: inline-block;
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}

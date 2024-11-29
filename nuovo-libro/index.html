@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <img src="./img/duck.png" alt="Logo" width="60px">  
+                <img src="/catalogo-libri/img/duck.png" alt="Logo" width="60px">  
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown">
                     <span class="navbar-toggler-icon"></span>
@@ -36,6 +36,66 @@
         </nav>
     </header>
     <main>
+        <!--Title-->
+        <h1>Nuovo Libro</h1>
+
+        <!--Form-->
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputnameauthor" class="form-label">Nome Autore</label>
+                <input type="text" placeholder="Inserisci il nome dell'autore" class="form-control" id="inputnameauthor">
+            </div>
+            <div class="col-md-6">
+                <label for="inputauthor" class="form-label">Cognome Autore</label>
+                <input type="text" placeholder="Inserisci il cognome dell'autore" class="form-control" id="inputauthor">
+            </div>
+            <div class="col-12">
+                <label for="inputbooktitle" class="form-label">Titolo</label>
+                <input type="text" class="form-control" placeholder="Inserisci il titolo del libro" id="inputbooktitle">
+                <span>Titolo versione italiana</span>
+            </div>
+            <div class="col-md-4">
+                <label for="inputgender" class="form-label">Genere</label>
+                <select class="form-select" id="inputgender">
+                <option selected>Scegli il genere</option>
+                <option>Fantasy</option>
+                <option>Horror</option>
+                <option>Giallo</option>
+                <option>Fantascienza</option>
+                <option>Storico</option>
+                <option>Narrativa</option>
+                <option>Biografia</option>
+                <option>Thriller</option>
+                <option>Avventura</option>
+                <option>Distopia</option>
+                <option>Young Adult</option>
+                <option>Romanzo Rosa</option>
+                <option>Azione</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="inputyear" class="form-label">Anno di pubblicazione</label>
+                <input type="text" placeholder="Inserisci l'anno" class="form-control" id="inputyear">
+            </div>
+            <div class="col-md-4">
+                <label for="inputisbn" class="form-label">ISBN#</label>
+                <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#" id="inputisbn">
+            </div>
+            <hr>
+            <div class="col-12">
+                <label for="inputnote" class="form-label">Note</label>
+                <input type="text" class="form-control" placeholder="Inserisci eventuali note sul libro" id="inputnote">
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">Disponibile anche in digitale</label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary btn-sm">Aggiungi Libro</button>
+            </div>
+        </form>
     </main>
 </body>
 </html>
