@@ -14,12 +14,34 @@
 h1 {
     font-size: x-large;
     display: inline-block;
-    padding: 15px;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 main {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+span {
+    color: #969DA2;
+    display: block;
+    padding-top: 4px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.form-check-label {
+    font-size: small;
+}
+
+section {
+    margin: 10px;
+}
+
+.divider {
+    flex-shrink: 2;
+    padding-top: 10px;
 }
